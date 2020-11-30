@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
 }
@@ -60,10 +64,6 @@ footer{
     padding-top: 30px;
 }
 
-.index_6-div h4{
-    padding-left: 40px;
-}
-
 .index_6{
     background-color: #192537;
     
@@ -81,4 +81,8 @@ footer{
 .index_6-div h4{
     font-family: 'Castoro', serif;
     color: #A19C10;
+}
+
+.index_6-div ul{
+    padding: 10px 0;
 }
