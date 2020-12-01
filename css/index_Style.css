@@ -11,4 +11,134 @@
     -o-background-size: cover;
     background-size: cover;
     min-height: 600px;
+    
+}
+
+h1, h3{
+    font-family: 'Playfair Display SC', serif;
+    color: #A19C10;
+}
+ h2{
+    font-family: 'Playfair Display SC', serif;
+    color: #192537;
+ }
+
+ .index_2 h1{
+     text-align: center;
+     color: white;
+ }
+ .index_2{
+     background-color: #7c848c;
+     padding: 5% 0;
+ }
+
+ p,li{
+     font-family: 'Gothic A1', sans-serif;
+     
+ }
+
+
+
+.form{
+    display: inline-block;
+    background-color: wheat;
+    
+}
+
+
+
+
+
+ #primer_Parrafo{
+     font-size: 20px;
+     padding-top: 15%;
+     line-height: 1.7;
+     
+ }
+
+ .index_3{
+    height: 700px;
+    
+ }
+
+ .index_3-p{
+     float: left;
+     padding-right: 500px;
+     padding-top: 10%;
+     padding-left: 10%;
+ }
+
+ #index_3-p-column{
+     float: right;
+     margin-top: -500px;
+     padding-right: 120px;   
+     vertical-align: middle;
+ }
+
+ #pintura1{
+    width: 300px;
+    height: 300px;
+    display: table-column;
+    padding-bottom: 20px;
+    
+ }
+
+ #pintura2{
+
+    width: 300px;
+    height: 300px;
+    display: table-column;
+    
+ }
+
+ 
+ article{
+     float: left;
+     width: 80%;
+  
+    
+ }
+
+ aside{
+     background-color: wheat;
+     display: block;
+     float: right;
+     width: 20%;
+     
+ }
+
+
+
+
+
+
+.index_4{
+    
+    background-color: #192537;
+}
+
+#advertising_Title{
+    text-align: right;
+    padding:5% 20% 5% 0%;
+    
+}
+
+#pintura3{
+    margin-top: -400px;
+    padding-left: 100px;
+    margin-bottom: -5px;
+    
+}
+
+
+.index_5{
+   
+    padding: 10%;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
 }
