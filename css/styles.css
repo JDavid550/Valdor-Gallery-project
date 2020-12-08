@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estos son los estilos del header y footer*/
+
+header{
+    height: 80px;
+    background-color: #192537;
+    
+}
+.nav{
+    height: 70px;
+    float: right;
+    padding-right: 3%;  
+}
+
+.nav_ul{
+ 
+    margin-top: 35px;
+  
+}
+
+.nav_ul-li{
+    
+    padding: 5px;
+    height: 70px;
+    display: inline;
+    
+}
+
+.div_logo{
+    display: inline;
+    float: left;
+    height: 70px;
+}
+.nav_ul-li a{
+    
+    color: white;
+    text-decoration: none;
+    font-family: 'Castoro', serif;
+    
+}
+
+.nav_ul-li a:hover{
+    
+    color: #A19C10;
+    
+    
+}
+
+footer{
+    background-color: #A19C10;
+    padding: 5px 0px 5px 20px;
+    color: white;
+    text-align: center;
+}
+
+.index_6-div{
+    display: inline-block;
+    padding: 60px;
+    padding-top: 30px;
+}
+
+.index_6{
+    background-color: #192537;
+    
+}
+.index_6-div a{
+    color: white;
+    font-family: 'Castoro', serif;
+    text-decoration: none;
+}
+
+.index_6-div a:hover{
+    color:  #A19C10;
+}
+
+.index_6-div h4{
+    font-family: 'Castoro', serif;
+    color: #A19C10;
+}
+
+.index_6-div ul{
+    padding: 10px 0;
+}
+
+
+/*Este aplica en todos*/
+h1, h3{
+    font-family: 'Playfair Display SC', serif;
+    color: #A19C10;
+    letter-spacing: 10px;
+}
+
+ h2{
+    font-family: 'Playfair Display SC', serif;
+    color: #192537;
+ }
+
+ p,li{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+}
+
+/**/
+
+
+/*Aquí empieza Home*/
+
+.index_1{
+    background: url(https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1115&q=80) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    
+}
+
+
+ .index_2 h1{
+     text-align: center;
+     color: white;
+ }
+ .index_2{
+     background-color: #7c848c;
+     padding: 5% 0;
+ }
+
+
+.form{
+    display: inline-block;
+    background-color: wheat;  
+}
+
+
+ #primer_Parrafo{
+     font-size: 20px;
+     padding-top: 15%;
+     line-height: 1.7;
+     
+ }
+
+ .index_3{
+    height: 700px;
+    
+ }
+
+ .index_3-p{
+     float: left;
+     padding-right: 500px;
+     padding-top: 10%;
+     padding-left: 10%;
+ }
+
+ #index_3-p-column{
+     float: right;
+     margin-top: -500px;
+     padding-right: 120px;   
+     vertical-align: middle;
+ }
+
+ #pintura1{
+    width: 300px;
+    height: 300px;
+    display: table-column;
+    padding-bottom: 20px;
+    
+ }
+
+ #pintura2{
+
+    width: 300px;
+    height: 300px;
+    display: table-column;
+    
+ }
+
+ 
+ article{
+     float: left;
+     width: 80%;
+  
+    
+ }
+
+ aside{
+     background-color: wheat;
+     display: block;
+     float: right;
+     width: 20%;
+     
+ }
+
+
+
+.index_4{
+    
+    background-color: #192537;
+}
+
+#advertising_Title{
+    text-align: right;
+    padding:5% 20% 5% 0%;
+    
+}
+
+#pintura3{
+    margin-top: -400px;
+    padding-left: 100px;
+    margin-bottom: -5px;
+    
+}
+
+
+
+.index_5 li{
+   
+    padding: 1% 0;
+    text-align: center;
+    
+}
+
+
+.index_5-li-afuera{
+    list-style-position: outside;
+}
+
+.index_5-li-dentro{
+    list-style-position: inside;
+}
+
+
+.li_table{
+    text-decoration: none;
+}
+
+
+/*Acá es el We*/
+
+.we_1{
+    background: url(https://images.unsplash.com/photo-1526304760382-3591d3840148?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) no-repeat center center;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    text-align: center;
+    
+}
+
+/*Acá es el Our Art*/
+
+
+/*Acá es el Whole Gallery*/
+
+.video_section{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.souvenirs{
+    text-align: center;
+}
+
+/*Acá es el Contact Us*/
+
