@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -13,6 +14,7 @@ html{
 header{
     height: 8rem;
     background-color: #192537;
+  
     
 }
 .nav{
@@ -103,7 +105,7 @@ h1, h3{
     font-size: 3rem;
 }
 
- h2{
+ h2,h4{
     font-family: 'Playfair Display SC', serif;
     color: #192537;
     font-size: 2rem;
@@ -119,6 +121,8 @@ h1, h3{
 
 label{
     font-size: 1.6rem;
+    font-family: 'Gothic A1', sans-serif;
+    
 }
 
 /**/
@@ -149,10 +153,64 @@ label{
 
 
 .form{
-    display: inline-block;
+    
     background-color: wheat;  
+    width: 40rem;
+    height:45rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 60%;
+    top: 15vh;
+    padding: 0 3rem;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow: -5px 5px 5px black;
+    padding-bottom: 3rem;
+   
 }
 
+.form h4, h3{
+    text-align: center;
+}
+
+.form h3{
+    padding-top: 3rem;
+}
+.form h4{
+    margin-bottom: 2rem;
+}
+
+span{
+    color: #192537;
+}
+
+.form input {
+
+    margin: 1.5rem;
+    padding: 1rem 0;
+    background: transparent;
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: #192537 solid 1px;
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+
+}
+
+
+.form input[type=submit] {
+    background-color:#192537;
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.form input[type=text]:focus,[type=email]:focus{
+    background:linear-gradient(to bottom, transparent,#192537);
+    outline: none;
+}
 
  #primer_Parrafo{
      font-size: 2rem;
