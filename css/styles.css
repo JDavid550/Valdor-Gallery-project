@@ -165,7 +165,7 @@ label{
     padding: 0 3rem;
     justify-content: center;
     border-radius: 2px;
-    box-shadow: -5px 5px 5px black;
+    box-shadow: -5px 5px 5px #192537;
     padding-bottom: 3rem;
    
 }
@@ -325,11 +325,164 @@ span{
     -o-background-size: cover;
     background-size: cover;
     min-height: 60rem;
-    text-align: center;
+    text-align: center;   
+}
+
+.we_1 h2{
+    padding-top: 5rem;
+}
+
+
+
+.we_1 div{
+    background-color: #192537;
+    opacity: 0.8;
+    width: 50vw;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 3rem;
+
+}
+
+.we_1 p{
+   
+    color: white;
+    font-size: 2rem;
     
 }
 
+.we_title{
+
+    background-color:#7c848c;
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.we_title h2{
+    color: white;
+    
+}
+
+.person_1 {
+    display: flex;
+    padding: 5rem;
+}
+
+.person_1 img{
+    width: 40rem;
+    height: 40rem;
+    
+}
+
+.person_1 h3{
+    padding-top: 5rem;
+}
+.person_1 p{
+    padding: 5rem;
+    font-size: 2rem;
+    
+}
+
+.person_2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5rem;
+}
+
+.person_2 img{
+    width: 40rem;
+    height: 40rem;
+}
+
+.person_2 h3{
+    padding-top: 5rem;
+}
+.person_2 p{
+    padding: 5rem;
+    font-size: 2rem;
+    
+}
 /*Acá es el Our Art*/
+
+.gallery{
+    height: 90vh;
+}
+
+.our_work{
+    background-color:#A19C10;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.testimonials{
+    display: flex;
+    flex-flow: row ;
+    margin: 5rem 8rem; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cuadro{
+    
+    width: 40rem;
+    height: 40rem;
+    
+}
+
+
+.person_1-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.person_1-2 img{
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem 0;
+}
+
+
+
+.person_2-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person_2-2 img{
+    width: 20rem;
+    height: 20rem;
+    margin: 3em 0;
+
+}
+
+.cuadro_contacto{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #A19C10;
+    padding: 5rem 0;
+    flex-wrap: wrap;
+}
+
+
+.cuadro_contacto button{
+
+    padding: 1.5rem 5rem;
+    background-color:#192537;
+    color: white;
+    font-family: 'Castoro', serif;
+    border: none;
+    box-shadow: -5px 2px 5px #192537;
+
+}
+
+
 
 
 /*Acá es el Whole Gallery*/
@@ -337,6 +490,10 @@ span{
 .video_section{
     display: flex;
     justify-content: center;
+}
+
+iframe{
+    width: 100vw;
 }
 
 .table{
@@ -347,7 +504,51 @@ span{
 
 .souvenirs{
     text-align: center;
+    background-color:#A19C10;
+    padding: 5rem 0;
+    
 }
 
+table{
+    width: 100vw;
+}
+
+td, th{
+    padding: 3rem;
+    font-size: 2rem;
+}
 /*Acá es el Contact Us*/
+
+.contact_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    background-color: #7c848c;
+    padding: 1rem 4rem;
+   
+
+}
+
+.button{
+    display: flex;
+    width: 10rem;
+    align-self: center;
+    justify-content: center;
+    margin: 1rem 0;
+   
+    
+}
+
+.contact_details{
+    width: 40rem;
+    height: 40rem;
+    
+}
 
