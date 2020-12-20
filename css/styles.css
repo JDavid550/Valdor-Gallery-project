@@ -9,11 +9,18 @@ html{
     font-size:62.5%;
 }
 
+:root {
+
+    --main-color:#192537;
+    --secondary-color:#A19C10;
+
+}
+
 /*Estos son los estilos del header y footer*/
 
 header{
     height: 8rem;
-    background-color: #192537;
+    background-color: var(--main-color);
   
     
 }
@@ -53,13 +60,13 @@ header{
 
 .nav_ul-li a:hover{
     
-    color: #A19C10;
+    color: var(--secondary-color);
     
     
 }
 
 footer{
-    background-color: #A19C10;
+    background-color: var(--secondary-color);
     padding: 0.5rem 0 0.5rem 2rem;
     color: white;
     text-align: center;
@@ -72,7 +79,9 @@ footer{
 }
 
 .index_6{
-    background-color: #192537;
+    background-color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .index_6-div a{
@@ -83,12 +92,12 @@ footer{
 }
 
 .index_6-div a:hover{
-    color:  #A19C10;
+    color:  var(--secondary-color);
 }
 
 .index_6-div h4{
     font-family: 'Castoro', serif;
-    color: #A19C10;
+    color: var(--secondary-color);
     font-size: 2rem;
 }
 
@@ -100,14 +109,14 @@ footer{
 /*Este aplica en todos*/
 h1, h3{
     font-family: 'Playfair Display SC', serif;
-    color: #A19C10;
+    color: var(--secondary-color);
     letter-spacing: 1rem;
     font-size: 3rem;
 }
 
  h2,h4{
     font-family: 'Playfair Display SC', serif;
-    color: #192537;
+    color: var(--main-color);
     font-size: 2rem;
  }
 
@@ -137,6 +146,10 @@ label{
     -o-background-size: cover;
     background-size: cover;
     min-height: 60rem;
+    display: grid;
+    grid-template-areas: 
+    "fondo formulario";
+    grid-template-columns: 2fr 1fr;
     
 }
 
@@ -159,14 +172,14 @@ label{
     height:45rem;
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 60%;
-    top: 15vh;
     padding: 0 3rem;
     justify-content: center;
     border-radius: 2px;
-    box-shadow: -5px 5px 5px #192537;
+    box-shadow: -5px 5px 5px var(--main-color);
     padding-bottom: 3rem;
+    grid-area: formulario;
+    margin-top: 5rem;
+    margin-right: 5rem;
    
 }
 
@@ -192,7 +205,7 @@ span{
     background: transparent;
     font-size: 1.6rem;
     border: none;
-    border-bottom: #192537 solid 1px;
+    border-bottom: var(--main-color) solid 1px;
     font-family: 'Gothic A1', sans-serif;
     color: white;
 
@@ -200,7 +213,7 @@ span{
 
 
 .form input[type=submit] {
-    background-color:#192537;
+    background-color:var(--main-color);
     color: white;
     font-family: 'Gothic A1', sans-serif;
     border: none;
@@ -220,29 +233,22 @@ span{
  }
 
  .index_3{
-    height: 70rem;
-    
+    height: 80rem;
+    display: grid;
+    grid-template-areas:
+    "descripción imagenes eventos";
+    grid-template-columns: 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+   
  }
 
- .index_3-p{
-     float: left;
-     padding-right: 50rem;
-     padding-top: 10%;
-     padding-left: 10%;
- }
-
- #index_3-p-column{
-     float: right;
-     margin-top: -50rem;
-     padding-right: 12rem;   
-     vertical-align: middle;
- }
 
  #pintura1{
     width: 30rem;
     height: 30rem;
-    display: table-column;
     padding-bottom: 2rem;
+    
     
  }
 
@@ -250,47 +256,87 @@ span{
 
     width: 30rem;
     height: 30rem;
-    display: table-column;
-    
+       
+ }
+
+ #descripción{
+    grid-area: descripción;
+    padding-left: 5rem;
+ }
+
+ #imagenes{
+     grid-area: imagenes;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ #eventos{
+     grid-area: eventos;
+     background-color: wheat;
+     height: 80rem;
+     overflow: scroll;
+     padding: 2rem;
+     
+
+ }
+
+ .eventos-box{
+     box-shadow: 0 1px 1px var(--secondary-color);
+     margin: 1rem 0;  
+     padding: 1rem;
+     color: white;
+     background-color: var(--main-color);
+     border-radius: 5px;
  }
 
  
- article{
-     float: left;
-     width: 80%;
-  
-    
- }
-
- aside{
-     background-color: wheat;
-     display: block;
-     float: right;
-     width: 20%;
-     height: 70rem;
-     
- }
-
 
 
 .index_4{
     
-    background-color: #192537;
+    background-color: var(--main-color);
     font-size: 1.6rem;
-}
-
-#advertising_Title{
-    text-align: right;
-    padding:5% 20% 5% 0%;
+    height: 20rem;
+    display: grid;
+    grid-template-areas:
+    "imagen advertising banner";
+    
+    grid-template-columns: 1fr 1fr;
+    
     
 }
 
-#pintura3{
-    margin-top: -40rem;
-    padding-left: 10rem;
-    margin-bottom: -0.5rem;
-    
+.index_4 img{
+    position: relative;
+    bottom: 20.5rem;
 }
+
+.index_4 .ad_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index_4 .ad_box h3{
+
+    position: relative;
+    top: 3rem;
+}
+
+.index_4 .ad_box button{
+    position: relative;
+    top: 3.5rem;
+    padding: 1rem 3rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+
+
 
 
 
@@ -335,7 +381,7 @@ span{
 
 
 .we_1 div{
-    background-color: #192537;
+    background-color: var(--main-color);
     opacity: 0.8;
     width: 50vw;
     height: fit-content;
@@ -371,6 +417,14 @@ span{
 .person_1 {
     display: flex;
     padding: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.person_1 div{
+
+    width: 40rem;
+    height: 40rem;       
 }
 
 .person_1 img{
@@ -392,6 +446,14 @@ span{
     display: flex;
     flex-direction: row-reverse;
     padding: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.person_2 div{
+
+    width: 40rem;
+    height: 40rem;       
 }
 
 .person_2 img{
@@ -414,7 +476,7 @@ span{
 }
 
 .our_work{
-    background-color:#A19C10;
+    background-color:var(--secondary-color);
     text-align: center;
     padding: 5rem 0;
 }
@@ -465,7 +527,7 @@ span{
 .cuadro_contacto{
     display:flex;
     justify-content: space-evenly;
-    background-color: #A19C10;
+    background-color: var(--secondary-color);
     padding: 5rem 0;
     flex-wrap: wrap;
 }
@@ -474,11 +536,11 @@ span{
 .cuadro_contacto button{
 
     padding: 1.5rem 5rem;
-    background-color:#192537;
+    background-color:var(--main-color);
     color: white;
     font-family: 'Castoro', serif;
     border: none;
-    box-shadow: -5px 2px 5px #192537;
+    box-shadow: -5px 2px 5px var(--main-color);
 
 }
 
@@ -504,7 +566,7 @@ iframe{
 
 .souvenirs{
     text-align: center;
-    background-color:#A19C10;
+    background-color:var(--secondary-color);
     padding: 5rem 0;
     
 }
