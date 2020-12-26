@@ -112,12 +112,19 @@ h1, h3{
     color: var(--secondary-color);
     letter-spacing: 1rem;
     font-size: 3rem;
+    
+}
+
+h1{
+    animation-duration: 2s;
+    animation-name: aparecer;
 }
 
  h2,h4{
     font-family: 'Playfair Display SC', serif;
     color: var(--main-color);
     font-size: 2rem;
+    
  }
 
  p,li{
@@ -126,6 +133,12 @@ h1, h3{
     font-weight: 400;
     text-transform: none;
     font-size: 1.6rem;
+    
+}
+
+p{
+    animation-duration: 2s;
+    animation-name: aparecer;
 }
 
 label{
@@ -158,9 +171,21 @@ label{
      text-align: center;
      color: white;
      font-size: 3rem;
+     animation-duration: 2s;
+     animation-name: aparecer;
  }
+
+ @keyframes aparecer{
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+ }
+
  .index_2{
-     background-color: #7c848c;
+     background: linear-gradient(to bottom, #7c848c, #192537);
      padding: 5% 0;
  }
 
@@ -220,15 +245,32 @@ span{
     outline: none;
 }
 
+.form input[type=submit]:hover {
+    background-color:var(--secondary-color);
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    border: none;
+    outline: none;
+}
+
+
 .form input[type=text]:focus,[type=email]:focus{
     background:linear-gradient(to bottom, transparent,#192537);
     outline: none;
+}
+
+
+.descripción h2{
+    animation-duration: 2s;
+    animation-name: aparecer;
 }
 
  #primer_Parrafo{
      font-size: 2rem;
      padding-top: 15%;
      line-height: 1.7;
+     animation-duration: 2s;
+     animation-name: aparecer;
      
  }
 
@@ -248,15 +290,30 @@ span{
     width: 30rem;
     height: 30rem;
     padding-bottom: 2rem;
+    transition: 0.2s;
     
-    
+ }
+
+ #pintura1:hover{
+
+    width: 35rem;
+    height: 35rem;
+
  }
 
  #pintura2{
 
     width: 30rem;
     height: 30rem;
+    transition: 0.2s;
        
+ }
+
+ #pintura2:hover{
+
+    width: 35rem;
+    height: 35rem;
+
  }
 
  #descripción{
@@ -332,9 +389,14 @@ span{
     border: none;
     border-radius: 3px;
     outline: none;
+    transition: 0.2s;
 }
 
+.index_4 .ad_box button:hover{
 
+    padding: 1rem 3.5rem;
+
+}
 
 
 
@@ -400,7 +462,7 @@ span{
 
 .we_title{
 
-    background-color:#7c848c;
+    background: linear-gradient(to bottom, #7c848c, #192537);
     text-align: center;
     height: 8rem;
     display: flex;
@@ -540,7 +602,13 @@ span{
     color: white;
     font-family: 'Castoro', serif;
     border: none;
-    box-shadow: -5px 2px 5px var(--main-color);
+    transition: 0.2s;
+
+}
+
+.cuadro_contacto button:hover{
+
+    padding: 1.5rem 6rem;
 
 }
 
@@ -579,6 +647,12 @@ td, th{
     padding: 3rem;
     font-size: 2rem;
 }
+
+.img{
+    width: 8rem;
+    height: 8rem;
+    transform: scale(1.6,1.6);
+}
 /*Acá es el Contact Us*/
 
 .contact_section{
@@ -592,7 +666,7 @@ td, th{
 .contact_form{
     display: flex;
     flex-direction: column;
-    background-color: #7c848c;
+    background: linear-gradient(to bottom, #7c848c 50%, #192537);
     padding: 1rem 4rem;
    
 
