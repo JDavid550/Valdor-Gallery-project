@@ -33,7 +33,7 @@ header{
 .nav_ul{
  
     margin-top: 3.5rem;
-  
+    display: flex;
 }
 
 .nav_ul-li{
@@ -399,7 +399,9 @@ span{
 }
 
 
-
+.index_5{
+    padding: 10rem  20rem;
+}
 
 
 .index_5 li{
@@ -533,9 +535,7 @@ span{
 }
 /*Acá es el Our Art*/
 
-.gallery{
-    height: 90vh;
-}
+
 
 .our_work{
     background-color:var(--secondary-color);

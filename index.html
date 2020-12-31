@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Valdor Gallery</title>
 	<meta charset="utf-8">
@@ -7,15 +7,14 @@
 	<link rel="stylesheet" href="./css/styles.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Castoro&family=Gothic+A1:wght@100&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <body>
-
-
 	<header>
 		
 		<div class="logo">
-			<li class="div_logo"> <img src="images/logo.png" alt="Logo"></li>
+			<li class="div_logo"> <a href="./index.html"><img src="images/logo.png" alt="Logo"></a></li>
 		</div>	
 			
 		<nav class="nav"> 
@@ -110,17 +109,47 @@
 		</section>
 
 		<section class="index_5">
-			<div class="index_5-ul">
-				<ul>
-					<li class="index_5-li-afuera">Item one</li> 
-					<li class="index_5-li-dentro">Item one</li>
-					<li class="index_5-li-afuera">Item one</li> 	
-					<li class="index_5-li-dentro">Item one</li> 
-
-				</ul>
-			</div>		
+			<div class="accordion" id="accordionExample">
+				<div class="accordion-item">
+				  <h2 class="accordion-header" id="headingOne">
+					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					  Workshop one
+					</button>
+				  </h2>
+				  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+					  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam suscipit dolorum in fuga nihil vel! Ut eaque neque qui voluptatibus, ipsum repellat accusantium non aspernatur, ex nemo quo dicta totam?
+					</div>
+				  </div>
+				</div>
+				<div class="accordion-item">
+				  <h2 class="accordion-header" id="headingTwo">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					  Workshop two
+					</button>
+				  </h2>
+				  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam suscipit dolorum in fuga nihil vel! Ut eaque neque qui voluptatibus, ipsum repellat accusantium non aspernatur, ex nemo quo dicta totam?
+					</div>
+				  </div>
+				</div>
+				<div class="accordion-item">
+				  <h2 class="accordion-header" id="headingThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					  Workshop three
+					</button>
+				  </h2>
+				  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam suscipit dolorum in fuga nihil vel! Ut eaque neque qui voluptatibus, ipsum repellat accusantium non aspernatur, ex nemo quo dicta totam?
+					</div>
+				  </div>
+				</div>
+			  </div>	
 		</section>
 
+		
 		<section class="index_6"> 
 			<div class="index_6-div">
 				<img class="index_6-logo" src="images/logo.png">
@@ -152,6 +181,6 @@
 
 				
 	</footer>
-	
+	<script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
