@@ -24,19 +24,19 @@ header{
   
     
 }
-.nav{
+.menu{
     height: 7rem;
     float: right;
     padding-right: 3%;  
 }
 
-.nav_ul{
+.menu_ul{
  
     margin-top: 3.5rem;
     display: flex;
 }
 
-.nav_ul-li{
+.menu_ul-li{
     
     padding: 0.5rem;
     height: 7rem;
@@ -50,7 +50,7 @@ header{
     float: left;
     height: 7rem;
 }
-.nav_ul-li a{
+.menu_ul-li a{
     
     color: white;
     text-decoration: none;
@@ -58,7 +58,7 @@ header{
     
 }
 
-.nav_ul-li a:hover{
+.menu_ul-li a:hover{
     
     color: var(--secondary-color);
     
@@ -214,6 +214,7 @@ label{
 
 .form h3{
     padding-top: 3rem;
+    font-size: 3rem;
 }
 .form h4{
     margin-bottom: 2rem;
@@ -379,6 +380,7 @@ span{
 
     position: relative;
     top: 3rem;
+    font-size: 3rem;
 }
 
 .index_4 .ad_box button{
@@ -404,26 +406,9 @@ span{
 }
 
 
-.index_5 li{
-   
-    padding: 1% 0;
-    text-align: center;
-    
-}
 
 
-.index_5-li-afuera{
-    list-style-position: outside;
-}
 
-.index_5-li-dentro{
-    list-style-position: inside;
-}
-
-
-.li_table{
-    text-decoration: none;
-}
 
 
 /*Acá es el We*/
@@ -687,4 +672,6 @@ td, th{
     height: 40rem;
     
 }
+
+
 
