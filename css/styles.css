@@ -650,14 +650,14 @@ td, th{
     justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 5rem;
+    height: fit-content;
 }
 
 .contact_form{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, #7c848c 50%, #192537);
-    padding: 1rem 4rem;
-   
+    padding: 3rem 4rem;
+   border-radius: 3%;
 
 }
 
@@ -674,8 +674,47 @@ td, th{
 .contact_details{
     width: 40rem;
     height: 40rem;
+    margin-bottom: 5rem;
     
 }
+
+.contact_details form{
+    background-color: var(--secondary-color);
+}
+
+.contact_details form label{
+    color: white;
+}
+
+.contact_details form input, select{
+    background-color: transparent;
+    border: none;
+    border-bottom: var(--main-color) solid 1px;
+    color: white;
+}
+
+.contact_details form textarea{
+    resize: none;
+}
+
+.contact_details form [type=reset]{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.contact_details form [type=submit]{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.contact_details form input[type=text]:focus,[type=email]:focus,[type=number]:focus,select:focus{
+    background:linear-gradient(to bottom, transparent,#192537);
+    outline: none;
+}
+
+
 
 @media(max-width:960px){
 
@@ -687,6 +726,21 @@ td, th{
 
     .index_4 .ad_box img{
         display: none;
+    }
+
+    .we_1 div{
+        height: 30rem;
+        width: 50rem;
+     }
+
+     .we_1 p{
+        font-size: 1.7rem;
+    }
+    .index_6{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
 }
@@ -764,6 +818,26 @@ td, th{
         flex-direction: column;
         align-items: center;
 
+    }
+
+    .we_1 div{
+       height: fit-content;
+       width: 30rem;
+    }
+
+    .we_1 p{
+        font-size: 1.3rem;
+    }
+
+    
+    .testimonials{
+
+        height: 100rem;
+    }
+    .contact_details{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        
     }
 
 }
