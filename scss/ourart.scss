@@ -1,0 +1,74 @@
+.our_work{
+    background-color:var(--secondary-color);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.testimonials{
+    display: flex;
+    flex-flow: row ;
+    margin: 5rem 8rem; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cuadro{
+    
+    width: 40rem;
+    height: 40rem;
+    
+}
+
+
+.person_1-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.person_1-2 img{
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem 0;
+}
+
+
+
+.person_2-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person_2-2 img{
+    width: 20rem;
+    height: 20rem;
+    margin: 3em 0;
+
+}
+
+.cuadro_contacto{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: var(--secondary-color);
+    padding: 5rem 0;
+    flex-wrap: wrap;
+}
+
+
+.cuadro_contacto button{
+
+    padding: 1.5rem 5rem;
+    background-color:var(--main-color);
+    color: white;
+    font-family: 'Castoro', serif;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.cuadro_contacto button:hover{
+
+    padding: 1.5rem 6rem;
+
+}

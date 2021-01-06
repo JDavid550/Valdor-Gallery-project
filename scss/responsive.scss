@@ -1,0 +1,125 @@
+@media(max-width:960px){
+
+    .index_4{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .index_4 .ad_box img{
+        display: none;
+    }
+
+    .we_1 div{
+        height: 30rem;
+        width: 50rem;
+     }
+
+     .we_1 p{
+        font-size: 1.7rem;
+    }
+    .index_6{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+@media (max-width:700px){
+
+    .menu{
+        display: none;
+    }
+
+    .dropdown{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 3.1rem;
+        padding-right: 3.1rem;
+    }
+
+    .btn{
+        background-color: var(--secondary-color);
+    }
+
+    .btn-secondary{
+        background-color: var(--secondary-color);
+    }
+
+    .index_1{
+       display: flex;
+       justify-content: center;
+    }
+
+    .form{
+
+        margin-right: 0;
+    }
+
+    .index_3{
+
+        display: grid;
+        grid-template-areas:
+        "text"
+        "images"
+        "aside";
+        grid-template-columns: 1fr;
+        height: 100%;
+
+    }
+
+    .index_3 .descripción{
+        grid-area: text;
+        padding-right: 5rem;
+    }
+
+    #imagenes{
+
+        grid-area: images;
+    }
+
+    .index_3 aside{
+
+        display: none;
+
+    }
+
+    .index_4{
+
+        margin-top: 5rem;
+    }
+
+    .index_5{
+        padding: 4rem 4rem;
+    }
+
+    .index_6{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .we_1 div{
+       height: fit-content;
+       width: 30rem;
+    }
+
+    .we_1 p{
+        font-size: 1.3rem;
+    }
+
+    
+    .testimonials{
+
+        height: 100rem;
+    }
+    .contact_details{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        
+    }
+
+}

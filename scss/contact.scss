@@ -1,0 +1,69 @@
+.contact_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    height: fit-content;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+   border-radius: 3%;
+
+}
+
+.button{
+    display: flex;
+    width: 10rem;
+    align-self: center;
+    justify-content: center;
+    margin: 1rem 0;
+   
+    
+}
+
+.contact_details{
+    width: 40rem;
+    height: 40rem;
+    margin-bottom: 5rem;
+    
+}
+
+.contact_details form{
+    background-color: var(--secondary-color);
+}
+
+.contact_details form label{
+    color: white;
+}
+
+.contact_details form input, select{
+    background-color: transparent;
+    border: none;
+    border-bottom: var(--main-color) solid 1px;
+    color: white;
+}
+
+.contact_details form textarea{
+    resize: none;
+}
+
+.contact_details form [type=reset]{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.contact_details form [type=submit]{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.contact_details form input[type=text]:focus,[type=email]:focus,[type=number]:focus,select:focus{
+    background:linear-gradient(to bottom, transparent,#192537);
+    outline: none;
+}
