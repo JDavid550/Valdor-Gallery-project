@@ -1,0 +1,23 @@
+{
+  "name": "coder",
+  "version": "1.0.0",
+  "description": "This project was made for Valdor Gallery using HTML CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDavid550/Valdor-Gallery-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDavid550/Valdor-Gallery-project/issues"
+  },
+  "homepage": "https://github.com/JDavid550/Valdor-Gallery-project#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
