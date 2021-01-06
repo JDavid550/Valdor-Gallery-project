@@ -4,7 +4,7 @@
     padding: 5rem 0;
 }
 
-.testimonials{
+.div_testimonials{
     display: flex;
     flex-flow: row ;
     margin: 5rem 8rem; 
@@ -12,7 +12,7 @@
     justify-content: space-around;
 }
 
-.cuadro{
+.div_testimonials__div_person{
     
     width: 40rem;
     height: 40rem;
@@ -20,13 +20,13 @@
 }
 
 
-.person_1-2{
+.div_testimonials__div_person--person_1-2{
     display: flex;
     flex-direction: column;
     align-items: center;    
 }
 
-.person_1-2 img{
+.div_testimonials__div_person--person_1-2 img{
     width: 20rem;
     height: 20rem;
     margin: 3rem 0;
@@ -34,20 +34,20 @@
 
 
 
-.person_2-2{
+.div_testimonials__div_person--person_2-2{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.person_2-2 img{
+.div_testimonials__div_person--person_2-2 img{
     width: 20rem;
     height: 20rem;
     margin: 3em 0;
 
 }
 
-.cuadro_contacto{
+.div__div_contacto{
     display:flex;
     justify-content: space-evenly;
     background-color: var(--secondary-color);
@@ -56,7 +56,7 @@
 }
 
 
-.cuadro_contacto button{
+.div__div_contacto__div_contacto_button--contactbutton{
 
     padding: 1.5rem 5rem;
     background-color:var(--main-color);

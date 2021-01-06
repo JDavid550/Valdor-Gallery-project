@@ -197,7 +197,7 @@ span{
  
 
 
-.index_4{
+.section{
     
     background-color: var(--main-color);
     font-size: 1.6rem;
@@ -211,25 +211,25 @@ span{
     
 }
 
-.index_4 img{
+.section__div--img{
     position: relative;
     bottom: 20.5rem;
 }
 
-.index_4 .ad_box{
+.section__section__div--section4{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.index_4 .ad_box h3{
+.section__section__div--section4 h3{
 
     position: relative;
     top: 3rem;
     font-size: 3rem;
 }
 
-.index_4 .ad_box button{
+.section__section__div--section4 button{
     position: relative;
     top: 3.5rem;
     padding: 1rem 3rem;
@@ -240,7 +240,7 @@ span{
     transition: 0.2s;
 }
 
-.index_4 .ad_box button:hover{
+.section__section__div--section4 button:hover{
 
     padding: 1rem 3.5rem;
 

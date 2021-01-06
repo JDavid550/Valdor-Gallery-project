@@ -261,7 +261,7 @@ span {
   background-color: var(--main-color);
   border-radius: 5px; }
 
-.index_4 {
+.section {
   background-color: var(--main-color);
   font-size: 1.6rem;
   height: 20rem;
@@ -269,21 +269,21 @@ span {
   grid-template-areas: "imagen advertising banner";
   grid-template-columns: 1fr 1fr; }
 
-.index_4 img {
+.section__div--img {
   position: relative;
   bottom: 20.5rem; }
 
-.index_4 .ad_box {
+.section__section__div--section4 {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.index_4 .ad_box h3 {
+.section__section__div--section4 h3 {
   position: relative;
   top: 3rem;
   font-size: 3rem; }
 
-.index_4 .ad_box button {
+.section__section__div--section4 button {
   position: relative;
   top: 3.5rem;
   padding: 1rem 3rem;
@@ -293,7 +293,7 @@ span {
   outline: none;
   transition: 0.2s; }
 
-.index_4 .ad_box button:hover {
+.section__section__div--section4 button:hover {
   padding: 1rem 3.5rem; }
 
 .index_5 {
@@ -385,45 +385,45 @@ span {
   text-align: center;
   padding: 5rem 0; }
 
-.testimonials {
+.div_testimonials {
   display: flex;
   flex-flow: row;
   margin: 5rem 8rem;
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.cuadro {
+.div_testimonials__div_person {
   width: 40rem;
   height: 40rem; }
 
-.person_1-2 {
+.div_testimonials__div_person--person_1-2 {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.person_1-2 img {
+.div_testimonials__div_person--person_1-2 img {
   width: 20rem;
   height: 20rem;
   margin: 3rem 0; }
 
-.person_2-2 {
+.div_testimonials__div_person--person_2-2 {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.person_2-2 img {
+.div_testimonials__div_person--person_2-2 img {
   width: 20rem;
   height: 20rem;
   margin: 3em 0; }
 
-.cuadro_contacto {
+.div__div_contacto {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--secondary-color);
   padding: 5rem 0;
   flex-wrap: wrap; }
 
-.cuadro_contacto button {
+.div__div_contacto__div_contacto_button--contactbutton {
   padding: 1.5rem 5rem;
   background-color: var(--main-color);
   color: white;
