@@ -1,3 +1,6 @@
+$padding_index_5: 4rem;
+
+
 @media(max-width:960px){
 
     .section{
@@ -16,7 +19,9 @@
         bottom: 2rem;
     }
    
-
+    .index_5{
+        padding: $padding_index_5/2;
+    }
 
     .we_1 div{
         height: 30rem;
@@ -110,10 +115,9 @@
         position: relative;
         bottom: 4rem;
     }
-   
 
     .index_5{
-        padding: 4rem 4rem;
+        padding: $padding_index_5/2;
     }
 
     .index_6{

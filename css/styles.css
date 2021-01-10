@@ -104,6 +104,9 @@ p, li {
   text-transform: none;
   font-size: 1.6rem; }
 
+ul {
+  list-style: none; }
+
 p {
   animation-duration: 2s;
   animation-name: aparecer; }
@@ -296,8 +299,14 @@ span {
 .section__section__div--section4 button:hover {
   padding: 1rem 3.5rem; }
 
+.workshop_title {
+  color: #192537;
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 5rem; }
+
 .index_5 {
-  padding: 10rem  20rem; }
+  padding: 4rem; }
 
 /*Acá es el We*/
 .we_1 {
@@ -520,6 +529,18 @@ td, th {
   background: linear-gradient(to bottom, transparent, #192537);
   outline: none; }
 
+.contact_details2 {
+  display: flex;
+  flex-direction: column;
+  width: 40rem; }
+
+.contact_details2 p {
+  color: #192537;
+  font-size: 3.6rem; }
+
+.contact_details2 h2 {
+  padding-bottom: 6rem; }
+
 @media (max-width: 960px) {
   .section {
     display: flex;
@@ -530,6 +551,8 @@ td, th {
   .section__section__div--section4 {
     position: relative;
     bottom: 2rem; }
+  .index_5 {
+    padding: 2rem; }
   .we_1 div {
     height: 30rem;
     width: 50rem; }
@@ -580,7 +603,7 @@ td, th {
     position: relative;
     bottom: 4rem; }
   .index_5 {
-    padding: 4rem 4rem; }
+    padding: 2rem; }
   .index_6 {
     display: flex;
     flex-direction: column;
