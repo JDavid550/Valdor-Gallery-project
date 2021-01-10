@@ -1,5 +1,6 @@
 $padding_index_5: 4rem;
 $span_color:#192537;
+$img_size:2rem;
 
 
 .index_1{
@@ -259,4 +260,20 @@ span{
 
 .index_5{
     padding: $padding_index_5;
+}
+
+.accordion-body{
+    display: flex;
+    padding: 5rem;
+}
+
+.accordion-body img{
+   width: $img_size*10;
+   height: $img_size*10;
+
+}
+
+.accordion-body p{
+    padding: 5rem;
+    font-size: 2rem;
 }

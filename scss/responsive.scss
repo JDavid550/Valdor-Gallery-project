@@ -120,6 +120,17 @@ $padding_index_5: 4rem;
         padding: $padding_index_5/2;
     }
 
+    .accordion-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .accordion-body img{
+        margin-top: 3rem;
+     }
+
     .index_6{
         display:flex;
         flex-direction: column;
@@ -146,5 +157,7 @@ $padding_index_5: 4rem;
         margin-left: 2rem;
         
     }
+
+
 
 }

@@ -308,6 +308,18 @@ span {
 .index_5 {
   padding: 4rem; }
 
+.accordion-body {
+  display: flex;
+  padding: 5rem; }
+
+.accordion-body img {
+  width: 20rem;
+  height: 20rem; }
+
+.accordion-body p {
+  padding: 5rem;
+  font-size: 2rem; }
+
 /*Acá es el We*/
 .we_1 {
   background: url(https://images.unsplash.com/photo-1526304760382-3591d3840148?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) no-repeat center center;
@@ -462,16 +474,27 @@ iframe {
   padding: 5rem 0; }
 
 table {
-  width: 100vw; }
+  width: 100vw;
+  text-align: center;
+  border: 1px black solid; }
 
-td, th {
+.table_souvenirs th {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3rem;
+  color: #192537;
+  border-bottom: #192537 solid 1px; }
+
+.table_souvenirs td {
   padding: 3rem;
-  font-size: 2rem; }
+  font-size: 2.5rem;
+  font-family: 'Gothic A1', sans-serif;
+  border-bottom: #192537 solid 1px; }
 
 .img {
   width: 8rem;
   height: 8rem;
-  transform: scale(1.6, 1.6); }
+  transform: scale(2, 2);
+  margin: 4rem; }
 
 /*Acá es el Contact Us*/
 .contact_section {
@@ -541,6 +564,7 @@ td, th {
 .contact_details2 h2 {
   padding-bottom: 6rem; }
 
+/*Acá es el responsive*/
 @media (max-width: 960px) {
   .section {
     display: flex;
@@ -604,6 +628,13 @@ td, th {
     bottom: 4rem; }
   .index_5 {
     padding: 2rem; }
+  .accordion-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem; }
+  .accordion-body img {
+    margin-top: 3rem; }
   .index_6 {
     display: flex;
     flex-direction: column;
