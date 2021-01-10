@@ -521,11 +521,15 @@ td, th {
   outline: none; }
 
 @media (max-width: 960px) {
-  .index_4 {
+  .section {
     display: flex;
+    align-items: center;
     justify-content: center; }
-  .index_4 .ad_box img {
+  .section__div--img {
     display: none; }
+  .section__section__div--section4 {
+    position: relative;
+    bottom: 2rem; }
   .we_1 div {
     height: 30rem;
     width: 50rem; }
@@ -565,8 +569,16 @@ td, th {
     grid-area: images; }
   .index_3 aside {
     display: none; }
-  .index_4 {
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 5rem; }
+  .section__div--img {
+    display: none; }
+  .section__section__div--section4 {
+    position: relative;
+    bottom: 4rem; }
   .index_5 {
     padding: 4rem 4rem; }
   .index_6 {
