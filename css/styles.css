@@ -299,6 +299,13 @@ span {
   outline: none;
   transition: 0.2s; }
 
+.section__section__div--section4 a {
+  text-decoration: none;
+  color: #192537; }
+
+.section__section__div--section4 a:hover {
+  color: #192537; }
+
 .section__section__div--section4 button:hover {
   padding: 1rem 3.5rem; }
 
@@ -454,6 +461,16 @@ span {
   font-family: 'Castoro', serif;
   border: none;
   transition: 0.2s; }
+
+.div__div_contacto {
+  color: white; }
+
+.contactbutton {
+  text-decoration: none;
+  color: white !important; }
+
+.contactbutton:hover {
+  color: white; }
 
 .cuadro_contacto button:hover {
   padding: 1.5rem 6rem; }
@@ -614,15 +631,17 @@ table {
   .home_carousel {
     display: block;
     margin-top: 5rem; }
+  .event_title {
+    color: white; }
   .event {
-    height: 30rem;
+    height: 15rem;
     background-color: wheat;
     padding: 5rem;
     display: flex;
     align-items: center; }
   .eventos-box2 {
     background-color: #192537;
-    height: 25rem;
+    height: 10rem;
     box-shadow: 0 1px 1px #192537;
     border-radius: 5px;
     padding: 1rem; }

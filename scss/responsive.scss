@@ -97,8 +97,12 @@ $box_color:#192537;
         margin-top: 5rem;
     }
 
+    .event_title{
+        color: white;
+    }
+
     .event{
-        height: 30rem;
+        height: 15rem;
         background-color: wheat;
         padding: 5rem;
         display: flex;
@@ -107,7 +111,7 @@ $box_color:#192537;
 
     .eventos-box2{
         background-color: $box_color;
-        height: 25rem;
+        height: 10rem;
         box-shadow: 0 1px 1px $box_color;
         border-radius: 5px;
         padding: 1rem;

@@ -199,6 +199,7 @@ span{
      border-radius: 5px;
  }
 
+
  
 .home_carousel{
     display: none;
@@ -245,6 +246,15 @@ span{
     border-radius: 3px;
     outline: none;
     transition: 0.2s;
+}
+
+.section__section__div--section4 a{
+    text-decoration: none;
+    color: #192537;
+}
+
+.section__section__div--section4 a:hover{
+    color: #192537;
 }
 
 .section__section__div--section4 button:hover{
