@@ -7,11 +7,7 @@ iframe{
     width: 100vw;
 }
 
-.table{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .souvenirs{
     text-align: center;
@@ -47,4 +43,8 @@ table{
     height: 8rem;
     transform: scale(2,2);
     margin: 4rem;
+}
+
+.table_responsive{
+    display: none;
 }

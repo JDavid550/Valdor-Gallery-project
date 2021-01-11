@@ -1,7 +1,8 @@
 $padding_index_5: 4rem;
-
+$box_color:#192537;
 
 @media(max-width:960px){
+    
 
     .section{
         display: flex;
@@ -31,10 +32,8 @@ $padding_index_5: 4rem;
      .we_1 p{
         font-size: 1.7rem;
     }
-    .index_6{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
+    .index_6-div{
+        padding: 3rem;
 
     }
     
@@ -54,13 +53,6 @@ $padding_index_5: 4rem;
         padding-right: 3.1rem;
     }
 
-    .btn{
-        background-color: var(--secondary-color);
-    }
-
-    .btn-secondary{
-        background-color: var(--secondary-color);
-    }
 
     .index_1{
        display: flex;
@@ -100,11 +92,35 @@ $padding_index_5: 4rem;
 
     }
 
+    .home_carousel{
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .event{
+        height: 30rem;
+        background-color: wheat;
+        padding: 5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .eventos-box2{
+        background-color: $box_color;
+        height: 25rem;
+        box-shadow: 0 1px 1px $box_color;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+
+    .eventos-box2 p{
+        color: white;
+    }
+
     .section{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 5rem;
         
     }
     .section__div--img{
@@ -152,12 +168,80 @@ $padding_index_5: 4rem;
 
         height: 100rem;
     }
+
+    .div_testimonials__div_person{
+        height: 50rem;
+    }
+
     .contact_details{
         margin-right: 2rem;
         margin-left: 2rem;
         
     }
 
+    .table_souvenirs{
+        display: none;
+    }
+
+    .table_responsive{
+        display: flex;
+    }
+
+    .table_responsive th{
+        font-family: 'Playfair Display SC', serif;
+        font-size: 3rem;
+        color: #192537;
+        border-bottom: #192537 solid 1px;
+    }
+    
+    .table_responsive td{
+        padding: 3rem;
+        font-size: 2.5rem;
+        font-family: 'Gothic A1', sans-serif;
+        border-bottom: #192537 solid 1px;
+    }
+    
+    .img{
+        width: 8rem;
+        height: 8rem;
+        transform: scale(2,2);
+        margin: 4rem;
+    }
+    
+    .contact_details2{
+        margin-bottom: 5rem;
+    }
+
+
+}
+
+@media (max-width:370px){
+    .index_3{
+        margin-top: 5rem;
+    }
+
+    .accordion-body p{
+        padding: 2rem;
+    }
+
+    .person_1, .person_2{
+        padding: 0;
+    }
+
+    
+    .person_1 img, .person_2 img{
+        width: $img_size*3;
+        height: $img_size*3;
+        margin-top: 5rem;
+        
+    }
+
+    .div_testimonials{
+        height: fit-content;
+    }
+    .div_testimonials__div_person{
+        height: 50rem;
+    }
 
 
 }
