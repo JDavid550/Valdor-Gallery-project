@@ -86,3 +86,14 @@ $font_size:4rem;
 .contact_details2 h2{
     padding-bottom:$padding_title*3;
 }
+
+.sectionmap__div_sectionmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionmap__div_sectionmap iframe{
+    width: 80%;
+    padding-bottom: 5rem;
+}

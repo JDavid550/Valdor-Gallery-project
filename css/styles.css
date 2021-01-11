@@ -582,6 +582,15 @@ table {
 .contact_details2 h2 {
   padding-bottom: 6rem; }
 
+.sectionmap__div_sectionmap {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.sectionmap__div_sectionmap iframe {
+  width: 80%;
+  padding-bottom: 5rem; }
+
 /*Acá es el responsive*/
 @media (max-width: 960px) {
   .section {
