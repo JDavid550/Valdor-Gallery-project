@@ -9,6 +9,8 @@ $font_size:4rem;
     flex-wrap: wrap;
     padding-top: 5rem;
     height: fit-content;
+    background-color:wheat;
+    height: 60rem;
 }
 
 .contact_form{
@@ -76,21 +78,27 @@ $font_size:4rem;
     display: flex;
     flex-direction: column;
     width: 40rem;
+    padding-top: 5rem;
+    
 }
 
 .contact_details2 p{
     color: $p_color;
-    font-size: $font_size*0.9;
+    font-size: $font_size*0.5;
 }
 
 .contact_details2 h2{
     padding-bottom:$padding_title*3;
 }
 
+
+
 .sectionmap__div_sectionmap{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 10rem;
 }
 
 .sectionmap__div_sectionmap iframe{

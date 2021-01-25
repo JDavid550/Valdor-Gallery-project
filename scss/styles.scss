@@ -7,6 +7,7 @@
 html{
 
     font-size:62.5%;
+  
 }
 
 :root {
@@ -86,6 +87,7 @@ footer{
     background-color: var(--main-color);
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
 .index_6-div a{
